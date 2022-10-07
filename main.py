@@ -5,5 +5,4 @@ from menu import menuAtividade
 
 peixes()
 calendario()
-#Usuario().menuLogin()
-menuAtividade()
+Usuario().menuLogin()
