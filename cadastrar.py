@@ -77,15 +77,9 @@ class Usuario:
                             usuarios[usuario] = senha
                             print('\n| Cadastrado com sucesso |\n')
 
-                            try:
-                                # Quebra o loop da senha
-                                statusS = True
-                                self.info(usuario, senha)
-
-                            except Exception as erro:
-                                print(
-                                    "\nOcorreu um erro, não se preocupe não foi culpa sua, já fomos notificados ^^'\n"
-                                )
+                            # Quebra o loop da senha
+                            statusS = True
+                            self.info(usuario, senha)
 
                         else:
                             print('\nSenha deve conter 8 ou mais caracteres\n')

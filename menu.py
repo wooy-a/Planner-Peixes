@@ -8,7 +8,6 @@ planner = Planner()
 
 
 def menuAtividade():
-    planner.escutarNotificacoes(listaEvento)
 
     while True:
         op = input(f'''\n
