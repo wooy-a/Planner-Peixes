@@ -86,7 +86,6 @@ class Usuario:
                                 print(
                                     "\nOcorreu um erro, não se preocupe não foi culpa sua, já fomos notificados ^^'\n"
                                 )
-                                enviarSms(erro)
 
                         else:
                             print('\nSenha deve conter 8 ou mais caracteres\n')
